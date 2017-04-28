@@ -1,0 +1,30 @@
+{% load staticfiles %}
+<html>
+    <head>
+        <meta charset="utf8"/>
+        <title>Chá de Fralda</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <link type="text/css" rel="stylesheet" href="{% static 'css/materialize.min.css' %}"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body class="cyan">
+        <div class="container">
+            <div class="row">     
+                <div class="col s12 m12 l12 titulo-editar center-align">
+                    <h1 class="font-title-h4"><u>{{ item.convidado }}</u>, parabéns por ter escolhido o item <u>{{ item.nome }}</u> como presente!</h1>
+                </div>
+
+                <div class="center-align">
+					<a class="waves-effect waves-light btn blue" href="{% url 'blog.views.item_list' %}">Voltar para página Inicial</a>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="{% static 'js/materialize.min.js' %}"></script>
+	</body>
+</html>

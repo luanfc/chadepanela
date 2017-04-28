@@ -1,0 +1,45 @@
+.img-baby {
+    width: 35%;
+    margin-top: 2%;
+}
+
+.font-title-h1 {
+	font-family: 'Pacifico', cursive; 
+	font-size: 148px;
+	color: white;
+}
+
+.font-title-h2 {
+	font-family: 'Pacifico', cursive;
+	font-size: 70px;
+	color: white;
+}
+
+.font-title-h3 {
+	font-family: 'Pacifico', cursive;
+	font-size: 40px;
+	color: white;
+}
+
+.font-title-h4 {
+	font-family: 'Pacifico', cursive;
+	font-size: 50px;
+	color: white;
+}
+
+.titulo {
+	padding-top: 5% !important;
+	padding-bottom: 10% !important;
+}
+
+.subtitulo {
+	padding-bottom: 15% !important;
+}
+
+.lista {
+	padding-bottom: 3% !important;
+}
+
+.titulo-editar {
+	padding-bottom: 5% !important;
+}
